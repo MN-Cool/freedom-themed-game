@@ -30,9 +30,17 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Shoot",
+                    "name": "Throw",
                     "type": "Button",
                     "id": "bbd0412e-8f11-4517-837a-7f5c469ff979",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "9bfe26a9-b9f1-47da-b778-10dc9e50ccab",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -174,11 +182,22 @@
                 {
                     "name": "",
                     "id": "9963e839-3488-4bb7-8f32-dcaef4c9f754",
-                    "path": "<Keyboard>/s",
+                    "path": "<Keyboard>/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Shoot",
+                    "action": "Throw",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "74fb08d3-d124-45a3-836f-8475f5e28db2",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

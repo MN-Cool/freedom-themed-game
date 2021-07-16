@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 10}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 92
+  controlID: 94
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 23
+  controlID: 19
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -231,7 +231,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 137
+  controlID: 93
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,7 +363,7 @@ MonoBehaviour:
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 428.8
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -403,11 +403,11 @@ MonoBehaviour:
     - e00: 0.94957215
       e01: 0
       e02: 0
-      e03: -201.60077
+      e03: -237.39304
       e10: 0
       e11: 0.94957215
       e12: 0
-      e13: -37.26236
+      e13: -17.4178
       e20: 0
       e21: 0
       e22: 1
@@ -465,9 +465,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 8216271237581cd40bb9ad6a652bcea6, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 615a2b9f9b03404458be808a5c4f2e7b, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 43501096975550119, guid: 8216271237581cd40bb9ad6a652bcea6, type: 2}
+  - m_Target: {fileID: -3156793268498491505, guid: 615a2b9f9b03404458be808a5c4f2e7b, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -507,10 +507,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 352}
-      m_SelectedIDs: 42d6feff
-      m_LastClickedID: -76222
-      m_ExpandedIDs: 6ed0ffff5afbffff5e3b0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 463c0000
+      m_LastClickedID: 15430
+      m_ExpandedIDs: 5afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -572,13 +572,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 37
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 37
   m_LastProjectPath: C:\Users\mncoo\OneDrive\Documents\GitHub\freedom-themed-game\Freedom
     Game Project
@@ -586,9 +586,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 023e0000
-    m_LastClickedID: 15874
-    m_ExpandedIDs: 00000000023e0000d4410000d641000000ca9a3b
+    m_SelectedIDs: f23e0000
+    m_LastClickedID: 16114
+    m_ExpandedIDs: 00000000d83e0000da3e0000dc3e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -616,7 +616,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000023e0000
+    m_ExpandedIDs: 00000000d83e0000da3e0000dc3e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: ac3e00004a3f00008c3d0000de3d0000e43d0000863e0000e43a0000243b0000aa930000d697ffff00000000
+    m_ExpandedInstanceIDs: ac3e00004a3f00008c3d0000de3d0000e43d0000863e0000e43a0000243b0000aa930000d697ffff000000009c3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -797,9 +797,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.6926455, y: 0.42374325, z: 78.93602}
+    m_Target: {x: -21.682343, y: 1.1038378, z: -27.963436}
     speed: 2
-    m_Value: {x: -2.6926455, y: 0.42374325, z: 78.93602}
+    m_Value: {x: -21.682343, y: 1.1038378, z: -27.963436}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -846,13 +846,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.02140916, y: 0.21164675, z: -0.0046603987, w: 0.9772477}
+    m_Target: {x: 0.00096737297, y: -0.9722427, z: 0.004097331, w: 0.23451906}
     speed: 2
-    m_Value: {x: 0.021413047, y: 0.21015042, z: -0.0046276143, w: 0.97742355}
+    m_Value: {x: 0.00096724107, y: -0.97211015, z: 0.004096772, w: 0.23448709}
   m_Size:
-    m_Target: 16.986109
+    m_Target: 29.41644
     speed: 2
-    m_Value: 16.25465
+    m_Value: 29.41644
   m_Ortho:
     m_Target: 0
     speed: 2
