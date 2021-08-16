@@ -442,7 +442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 0}
   scoreToGive: 1
-  playerPos: {fileID: 0}
+  playerPos: {fileID: 66409338005415436, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
   moveSound: {fileID: 8141056135310112042}
 --- !u!136 &6301058732093711475
 CapsuleCollider:
