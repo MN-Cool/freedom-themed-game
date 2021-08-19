@@ -8,6 +8,7 @@ TagManager:
   - Coin
   - Bullet
   - Boss
+  - Growth
   layers:
   - Default
   - TransparentFX
