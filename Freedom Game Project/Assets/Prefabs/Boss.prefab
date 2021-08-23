@@ -613,12 +613,13 @@ MonoBehaviour:
   bossMoveSound: {fileID: 4449742745050619442}
   bossHurtSound: {fileID: 2520053103486478874}
   bossDeathSound: {fileID: 2469091908054188319}
-  bossHealth: 10
-  bossMaxHealth: 10
+  bossHealth: 1
+  bossMaxHealth: 1
   healthBar: {fileID: 0}
   bossHealthBar: {fileID: 0}
   bossHealthBarInner: {fileID: 0}
   victoryMusic: {fileID: 0}
+  victoryCameraTransition: {fileID: 0}
 --- !u!1 &5004410700220138932
 GameObject:
   m_ObjectHideFlags: 0
