@@ -929,7 +929,7 @@ GameObject:
   - component: {fileID: 142053915}
   - component: {fileID: 142053914}
   - component: {fileID: 142053913}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1028,6 +1028,22 @@ PrefabInstance:
       propertyPath: playerPos
       value: 
       objectReference: {fileID: 724254582}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter1
+      value: 
+      objectReference: {fileID: 418685583}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter2
+      value: 
+      objectReference: {fileID: 808318533}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter3
+      value: 
+      objectReference: {fileID: 7105618237717238794, guid: 204ded6f9806d5048a627b0a397cd3a9, type: 3}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: challengeCompleteText
+      value: 
+      objectReference: {fileID: 1962104329}
     - target: {fileID: 5779181807408851322, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -1722,7 +1738,7 @@ GameObject:
   - component: {fileID: 211428716}
   - component: {fileID: 211428715}
   - component: {fileID: 211428714}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2347,7 +2363,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh26452
+  m_Name: pb_Mesh40714
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2775,7 +2791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &418685584
 Transform:
   m_ObjectHideFlags: 0
@@ -3912,7 +3928,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: 516, y: 175}
+  m_SizeDelta: {x: 552, y: 210}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &534725541
 MonoBehaviour:
@@ -3935,7 +3951,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Holy smokes, you're getting the hang of this! Anyway, the goal is just
-    on the other side of this bridge. Good luck!
+    on the other side of this bridge. Good luck! And defeat all the other enemies,
+    while your at it!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4018,7 +4035,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57670
+  m_Name: pb_Mesh40858
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4437,6 +4454,22 @@ PrefabInstance:
       propertyPath: playerPos
       value: 
       objectReference: {fileID: 724254582}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter1
+      value: 
+      objectReference: {fileID: 418685583}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter2
+      value: 
+      objectReference: {fileID: 808318533}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter3
+      value: 
+      objectReference: {fileID: 7105618237717238794, guid: 204ded6f9806d5048a627b0a397cd3a9, type: 3}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: challengeCompleteText
+      value: 
+      objectReference: {fileID: 1962104329}
     - target: {fileID: 5779181807781522288, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -4686,7 +4719,7 @@ GameObject:
   - component: {fileID: 579238476}
   - component: {fileID: 579238475}
   - component: {fileID: 579238474}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6214,12 +6247,12 @@ GameObject:
   - component: {fileID: 758447559}
   - component: {fileID: 758447558}
   - component: {fileID: 758447557}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &758447556
 Transform:
@@ -6663,7 +6696,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &808318534
 Transform:
   m_ObjectHideFlags: 0
@@ -6978,7 +7011,7 @@ GameObject:
   - component: {fileID: 837357801}
   - component: {fileID: 837357800}
   - component: {fileID: 837357805}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FloatingPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8083,7 +8116,7 @@ GameObject:
   - component: {fileID: 860423381}
   - component: {fileID: 860423380}
   - component: {fileID: 860423379}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9369,6 +9402,22 @@ PrefabInstance:
       propertyPath: playerPos
       value: 
       objectReference: {fileID: 724254582}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter1
+      value: 
+      objectReference: {fileID: 418685583}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter2
+      value: 
+      objectReference: {fileID: 808318533}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter3
+      value: 
+      objectReference: {fileID: 7105618237717238794, guid: 204ded6f9806d5048a627b0a397cd3a9, type: 3}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: challengeCompleteText
+      value: 
+      objectReference: {fileID: 1962104329}
     - target: {fileID: 5779181807781522288, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10132,7 +10181,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.47298357, y: 0.000000036701145, z: -0.000000019702195, w: 0.88107127}
+  m_LocalRotation: {x: 0.47298357, y: 4e-45, z: -4e-45, w: 0.88107127}
   m_LocalPosition: {x: 0, y: 6, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -11405,7 +11454,7 @@ GameObject:
   - component: {fileID: 1163261324}
   - component: {fileID: 1163261323}
   - component: {fileID: 1163261322}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -14205,6 +14254,7 @@ MonoBehaviour:
   tutorialText6: {fileID: 1083884341}
   tutorialText7: {fileID: 534725539}
   bonusText: {fileID: 1224676343}
+  enemyBoxText: {fileID: 0}
   bonusEndText: {fileID: 0}
   endingText: {fileID: 849238443}
   powerUpText: {fileID: 0}
@@ -14225,12 +14275,12 @@ GameObject:
   - component: {fileID: 1783671050}
   - component: {fileID: 1783671049}
   - component: {fileID: 1783671048}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1783671047
 Transform:
@@ -14329,6 +14379,22 @@ PrefabInstance:
       propertyPath: playerPos
       value: 
       objectReference: {fileID: 724254582}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter1
+      value: 
+      objectReference: {fileID: 418685583}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter2
+      value: 
+      objectReference: {fileID: 808318533}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter3
+      value: 
+      objectReference: {fileID: 7105618237717238794, guid: 204ded6f9806d5048a627b0a397cd3a9, type: 3}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: challengeCompleteText
+      value: 
+      objectReference: {fileID: 1962104329}
     - target: {fileID: 5779181807781522288, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -14388,6 +14454,11 @@ Transform:
 --- !u!1 &1804534368 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5779181807781522291, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+  m_PrefabInstance: {fileID: 1804534366}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1804534369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5111169743265296305, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
   m_PrefabInstance: {fileID: 1804534366}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1870249208
@@ -14656,6 +14727,22 @@ PrefabInstance:
       propertyPath: playerPos
       value: 
       objectReference: {fileID: 724254582}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter1
+      value: 
+      objectReference: {fileID: 418685583}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter2
+      value: 
+      objectReference: {fileID: 808318533}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter3
+      value: 
+      objectReference: {fileID: 7105618237717238794, guid: 204ded6f9806d5048a627b0a397cd3a9, type: 3}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: challengeCompleteText
+      value: 
+      objectReference: {fileID: 1962104329}
     - target: {fileID: 5779181807781522288, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -14921,7 +15008,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh26596
+  m_Name: pb_Mesh40902
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15705,12 +15792,12 @@ GameObject:
   - component: {fileID: 2088926336}
   - component: {fileID: 2088926335}
   - component: {fileID: 2088926334}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2088926333
 Transform:
@@ -16044,19 +16131,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 282984171360452647, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8810713
+      value: 0.88107127
       objectReference: {fileID: 0}
     - target: {fileID: 282984171360452647, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.47298354
+      value: 0.47298357
       objectReference: {fileID: 0}
     - target: {fileID: 282984171360452647, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000003670114
+      value: -1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 282984171360452647, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000019702192
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 937468337909158782, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16068,19 +16155,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1324101872232932948, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8810713
+      value: 0.88107127
       objectReference: {fileID: 0}
     - target: {fileID: 1324101872232932948, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.47298354
+      value: 0.47298357
       objectReference: {fileID: 0}
     - target: {fileID: 1324101872232932948, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000003670114
+      value: 1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 1324101872232932948, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000019702192
+      value: -1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 1922048442850214921, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_FollowOffset.y
@@ -16092,27 +16179,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3223475569359713762, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00039482117
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3223475569359713762, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0017039776
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3223475569359713762, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8811426
+      value: 0.88107127
       objectReference: {fileID: 0}
     - target: {fileID: 3223475569359713762, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.47285065
+      value: 0.47298357
       objectReference: {fileID: 0}
     - target: {fileID: 3223475569359713762, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000010877292
+      value: -1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 3223475569359713762, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000058371192
+      value: 1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 7333756532247113733, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
       propertyPath: m_FollowOffset.y
@@ -16170,6 +16257,10 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[10].m_Target
       value: 
       objectReference: {fileID: 563571374}
+    - target: {fileID: 9115176652578051818, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[12].m_Target
+      value: 
+      objectReference: {fileID: 1804534369}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4c5eada2fd31794794c4592ac1acc9f, type: 3}
 --- !u!1001 &6433056778224557569
@@ -16257,6 +16348,22 @@ PrefabInstance:
       propertyPath: playerPos
       value: 
       objectReference: {fileID: 724254582}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter1
+      value: 
+      objectReference: {fileID: 418685583}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter2
+      value: 
+      objectReference: {fileID: 808318533}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: teleporter3
+      value: 
+      objectReference: {fileID: 7105618237717238794, guid: 204ded6f9806d5048a627b0a397cd3a9, type: 3}
+    - target: {fileID: 973497787400222836, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
+      propertyPath: challengeCompleteText
+      value: 
+      objectReference: {fileID: 1962104329}
     - target: {fileID: 5779181807408851322, guid: 9f66995b74246374b97089fcc0845f12, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.75
