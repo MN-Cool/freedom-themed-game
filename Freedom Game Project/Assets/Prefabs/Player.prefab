@@ -652,7 +652,7 @@ MonoBehaviour:
   manager: {fileID: 0}
   speed: 2.5
   rotationSmoothing: 0.1
-  gravity: 20
+  gravity: 25
   jumpAmount: 7
   cam: {fileID: 937468337909158782}
   ballSpawn: {fileID: 5967322664021107398}

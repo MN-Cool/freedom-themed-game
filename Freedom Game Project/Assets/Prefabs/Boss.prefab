@@ -556,6 +556,7 @@ Transform:
   - {fileID: 5672747485504630792}
   - {fileID: 4957964515830693486}
   - {fileID: 5313954165945993133}
+  - {fileID: 7973615556822799932}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -613,8 +614,10 @@ MonoBehaviour:
   bossMoveSound: {fileID: 4449742745050619442}
   bossHurtSound: {fileID: 2520053103486478874}
   bossDeathSound: {fileID: 2469091908054188319}
-  bossHealth: 1
-  bossMaxHealth: 1
+  bigExplosionSpawn: {fileID: 7973615556822799932}
+  bigExplosionPrefab: {fileID: 4362418464602085642, guid: 8e08f356b9163c74da23fc9472f4cd64, type: 3}
+  bossHealth: 10
+  bossMaxHealth: 10
   healthBar: {fileID: 0}
   bossHealthBar: {fileID: 0}
   bossHealthBarInner: {fileID: 0}
@@ -1074,6 +1077,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6537932576607814683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7973615556822799932}
+  m_Layer: 0
+  m_Name: BigExplosionSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7973615556822799932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6537932576607814683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2882687526604390559}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7176098820124925943
 GameObject:
   m_ObjectHideFlags: 0

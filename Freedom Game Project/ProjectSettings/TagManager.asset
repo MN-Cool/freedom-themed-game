@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - Boss
   - Victory
+  - Explosion
   layers:
   - Default
   - TransparentFX
