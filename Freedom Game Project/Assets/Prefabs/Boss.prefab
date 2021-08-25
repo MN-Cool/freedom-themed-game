@@ -616,13 +616,14 @@ MonoBehaviour:
   bossDeathSound: {fileID: 2469091908054188319}
   bigExplosionSpawn: {fileID: 7973615556822799932}
   bigExplosionPrefab: {fileID: 4362418464602085642, guid: 8e08f356b9163c74da23fc9472f4cd64, type: 3}
-  bossHealth: 10
+  bossHealth: 1
   bossMaxHealth: 10
   healthBar: {fileID: 0}
   bossHealthBar: {fileID: 0}
   bossHealthBarInner: {fileID: 0}
   victoryMusic: {fileID: 0}
   victoryCameraTransition: {fileID: 0}
+  isStopped: 0
 --- !u!1 &5004410700220138932
 GameObject:
   m_ObjectHideFlags: 0

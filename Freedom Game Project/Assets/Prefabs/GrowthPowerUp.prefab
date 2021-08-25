@@ -111,6 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfebf5889bddba943a121794cf2d24d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  powerUpCollider: {fileID: 0}
+  powerUpEndCollider: {fileID: 0}
   powerUpSound: {fileID: 5276130828933981385}
 --- !u!95 &9130302784281933615
 Animator:
