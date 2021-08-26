@@ -478,7 +478,7 @@ MonoBehaviour:
   moveSound: {fileID: 8141056135310112042}
   deathSound: {fileID: 5977525933774098686}
   explosionSpawn: {fileID: 1818356272531925348}
-  explosionPrefab: {fileID: 4981238950567951484, guid: 379ccc582b26b3845944dbd5db00ee36, type: 3}
+  explosionPrefab: {fileID: 956887191748757094, guid: 3997a68d3229cd2479181565679d78c4, type: 3}
   teleporter1: {fileID: 0}
   teleporter2: {fileID: 0}
   teleporter3: {fileID: 0}

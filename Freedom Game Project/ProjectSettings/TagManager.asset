@@ -12,6 +12,8 @@ TagManager:
   - Boss
   - Victory
   - Explosion
+  - SceneChange
+  - Teleporter
   layers:
   - Default
   - TransparentFX

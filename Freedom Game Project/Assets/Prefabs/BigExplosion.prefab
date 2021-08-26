@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 4362418464602085646}
   - component: {fileID: 4362418464602085647}
   - component: {fileID: 7152244176765540986}
-  - component: {fileID: 2073910186284296613}
   - component: {fileID: 620021202242151770}
-  - component: {fileID: 2482709430456101559}
+  - component: {fileID: -263829225872580016}
   m_Layer: 0
   m_Name: BigExplosion
   m_TagString: Explosion
@@ -181,18 +180,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2073910186284296613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4362418464602085642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35547d9344425ea42aac28317fb34901, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &620021202242151770
 Animator:
   serializedVersion: 3
@@ -212,16 +199,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!135 &2482709430456101559
-SphereCollider:
+--- !u!114 &-263829225872580016
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4362418464602085642}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35547d9344425ea42aac28317fb34901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
