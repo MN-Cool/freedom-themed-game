@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TutorialLevelVictory.unity
     guid: 29fafebc2870cdb439a4b44ab581dddd
+  - enabled: 1
+    path: Assets/Scenes/TutorialLevelLoading.unity
+    guid: a9172277fc8feed4f93f0b98cb1ca405
+  - enabled: 1
+    path: Assets/Scenes/TutorialLevelLoading2.unity
+    guid: 43a8ffe6b227a954bba41a86e7f72152
   m_configObjects: {}
